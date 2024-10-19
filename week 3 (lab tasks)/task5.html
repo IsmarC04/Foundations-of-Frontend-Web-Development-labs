@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ticket Form</title>
+</head>
+<body>
+   
+    <h1 style="text-align:center;"> IT Center Ticket Form </h1>
+    <hr>
+    
+    <label for="Problem">Type of problem:</label>
+    <select id="Problem">
+    <option value="Help">Help</option>
+    <option value="Help2">Help2</option></select>
+    <br><br>
+
+
+<form action="/action_page.php">
+    <p>Select Urgency:</p>
+    <input type="radio" id="Urgency" name="ss" vale="Not Urgent">
+    <label for="Urgency">Not Urgent</label><br>
+    
+    <input type="radio" id="Mild" name="ss"> 
+    <label for="Mild">Mild</label><br>
+
+    <input type="radio" id="Highly Urgent" name="ss">
+    <label for="Highly Urgent">Highly Urgent</label>
+    
+</form>
+<br>
+
+<form action="/action_page.php">
+    <label for="myFile">Upload a Picture(JPG, JPEG, PNG):</label>
+    <input type="file" id="myFile">
+
+</form>
+<br>
+<form>
+    <button type="submit" class="registerbtn">Submit Ticket</button>
+</form>
+ 
+</body>
+</html>

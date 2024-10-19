@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 style="text-align: center;">Subsription Management Form</h1>
+    <hr>
+    <fieldset>
+        <legend>Details:</legend>
+        <label for="Email"><u><b>Email:</b></u></label>
+        <input type="email" id="Email">
+
+        <br><br>
+
+        <label for="Link"><u><b>Link:</b></u></label>
+        <input type="text" id="Link">
+
+        <br><br>
+
+        <label for="Password"><u><b>Password</b></u></label>
+        <input type="password" id="Password">
+    </fieldset>
+
+    <fieldset>
+        <legend>Reason for Ending Subscription</legend>
+        <label for="Reason"><b>Select reason:</b></label>
+        <select id="Reason">
+            <option value="Other">Other</option>
+            <option value="I don't know">I don't know</option>
+
+        </select>
+
+        <br><br>
+
+            <p><I>Would you use one of our tools other tools again?</I></p>
+
+            <input type="radio" id="Yes" name="ask">
+            <label for="Yes">Yes</label>
+            <br>
+            <input type="radio" id="No" name="ask">
+            <label for="No">No</label>
+            <br>
+            <input type="radio" id="Maybe" name="ask">
+            <label for="No">Maybe</label>
+            <br><br>
+
+            <label for="Additional Comment">Additional Comment</label><br>
+            <textarea name="Comment" id="Additional Comment" placeholder="Add comments" rows="5" cols="50"></textarea>
+
+            
+    </fieldset>
+    <br>
+
+<style>
+    form{text-align: center;}
+</style>
+    <form>
+        <button type="submit" class="registerbtn">Submit</button>
+    </form>
+</body>
+</html>

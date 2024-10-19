@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Data Entry</title>
+</head>
+<body>
+    <h1>CV Data Entry Form</h1>
+    <hr>
+    <fieldset>
+        <legend>Personal Information</legend>
+        
+        <label for="name">Full Name:</label>
+        <input type="text" id="name" name="">
+
+        <br><br>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="">
+    </fieldset>
+
+    <fieldset>
+        <legend>Introduction</legend>
+        <label for="insruction about yourself">Write a short introduction about yourself?</label><br>
+        <textarea id="instruction about yourself" type="text" name=""></textarea>
+    </fieldset>
+
+    <fieldset>
+        <legend>Skills</legend>
+        <p>Select your skills:<br>
+        <input type="checkbox" id="HTML" name="">
+        <label for="HTML">HTML</label>
+
+        <br>
+
+        <input type="checkbox" id="CSS">
+        <label for="CSS">CSS</label>
+
+        <br>
+
+        <input type="checkbox" id="JavaScript">
+        <label for="JavaScript">JavaScript</label>
+
+        <br>
+
+        <input type="checkbox" id="React">
+        <label for="React">React</label>
+
+        <br>
+
+        <input type="checkbox" id="Node.js">
+        <label for="Node.js">Node.js</label>
+
+        <br>
+
+        <input type="checkbox" id="Express">
+        <label for="Express">Express</label>
+
+        <br>
+
+        <input type="checkbox" id="Git">
+        <label for="Git">Git</label>
+
+        <br>
+
+        <input type="checkbox" id="Web">
+        <label id="Web">Web Performance Optimization</label>
+    </p>
+      
+    </fieldset>
+
+
+    <fieldset>
+        <legend>Experience</legend>
+        <label for="Current Position">Current Position</label>
+        <input type="text" id="Current Position">
+
+        <br><br>
+
+        <label for="Experience">Describe your experience:</label><br>
+        <textarea id="Experience" rows="5" cols="50"></textarea>
+    </fieldset>
+
+
+    <fieldset>
+        <legend>Education & Certification</legend>
+        <label for="Degree">Degree:</label>
+        <select id="Degree">
+        <option value="High School">High School</option>    
+        <option value="Primary School">Primary School</option>
+        </select>
+        <br><br>
+        <label for="Certification">Certification</label> <br>
+        <textarea id="Certification" rows="3" cols="50"></textarea>
+
+    </fieldset>
+
+    <fieldset>
+        <legend>Personal Projects</legend>
+        <label for="personal projects">Describe your personal projects:</label><br>
+        <textarea id="personal projects" rows="3" cols="50"></textarea>
+
+    </fieldset>
+<br><br>
+    <form>
+        <button type="submit" class="registerbtn">Submit CV</button>
+    </form>
+</body>
+</html>
